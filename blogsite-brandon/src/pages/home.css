@@ -1,0 +1,91 @@
+.navbar-main{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .body-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    background-color: rgb(250, 245, 240);
+    min-height: 100vh;
+    height: auto;
+  }
+  .main-control-button{
+    display: flex;
+    justify-content: space-between;
+  }
+  .home-sort-btn{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .dropdown{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  .pagination-button{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+  }
+  /*right div*/
+  .header-discuss{
+    background-color: white;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px 8px 0px 0px;
+    width: 40vh;
+    height: 15vh;
+    padding: 20px;
+  }
+  .header-title{
+    font-weight: bold;
+    color: rgb(60,60,60);
+  }
+  .header-desc{
+    font-size: 12px;
+    color: rgb(80,80,80);
+  }
+  .discuss-content-links{
+    text-decoration: none;
+  }
+  .discuss-content{
+    background-color: white;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+    width: 40vh;
+    height: 15vh;
+    padding: 20px;
+  }
+  .discuss-content-title{
+    font-size: 16px;
+    color: rgb(60,60,60);
+  }
+  .discuss-content-desc{
+    font-size: 13px;
+    color: rgb(100,100,100);
+  }
+  .footer-discuss{
+    background-color: white;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 8px 8px;
+    width: 40vh;
+    height: 15vh;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .footer-title{
+    font-weight: bold;
+    color: rgb(75,75,75);
+  }

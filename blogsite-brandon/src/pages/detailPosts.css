@@ -1,0 +1,97 @@
+.body-post{
+    background-color: rgb(250,245,240);
+    min-height: 100vh;
+    height: auto;
+}
+.container-posts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.main-content-detail{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+.detail-back-button{
+    display: flex;
+    border-radius: 120px;
+}
+.detail-header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.detail-bottom-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tag-container{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.date-created{
+    color: rgb(70, 70, 70);
+    font-size: 12px;
+}
+.btn-tag{
+    font-size: 12px !important;
+}
+.detail-body-container{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.detail-image-container{
+    display: flex;
+    justify-content: center;
+}
+.image-detail{
+    margin-top: 20px;
+    border-radius: 8px;
+    max-height: 70vh;
+    max-width: 80vh;
+}
+.sidenav-styling{
+    display: flex;
+    flex: 0 0 25%;
+}
+.detail-title{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.table-posts{
+    margin-top: 30px;
+    width: 80%;
+}
+.side-user-info{
+    background-color: white;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+    flex: 0 0 25%;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 20px;
+    width: auto;
+    min-height: 50vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.detail-username{
+    font-weight: 600;
+}
+.detail-user-address{
+    margin-top: 20px;
+}
